@@ -9,12 +9,11 @@ public class OpenGoogleTest {
     @Test
     public void googleTest(){
 
-
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
-        driver.findElement(By.name("q")).sendKeys("Colombo" + Keys.ENTER );
+        driver.findElement(By.name("q")).sendKeys("Colombo" + Keys.ENTER);
 
+        //driver.quit();
 
-//        driver.quit();
     }
 }

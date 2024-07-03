@@ -4,19 +4,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class OpenGoogle {
 
-    //Open goole
-    //Going to home page
     public static void main(String[] args) {
 
-        //first method - System.setProperty()
-        //System.setProperty("webdriver.chrome.driver","C:\\Users\\User St\\Downloads\\Driver\\chromedriver-win64\\chromedriver.exe");
+//        Open google
+//        Got to google home page
 
-//        WebDriverManager.chromedriver().setup();
+       // System.setProperty("webdriver.chrome.driver","C:\\Users\\User St\\Downloads\\Driver\\chromedriver-win64\\chromedriver.exe");
+
+
+       // WebDriverManager.chromedriver().setup();
+
+        // webdriver is the major component of selenium
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
-
-
-
-
+        driver.quit();
     }
 }
